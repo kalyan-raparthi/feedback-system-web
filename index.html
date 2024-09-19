@@ -7,32 +7,46 @@
 </head>
 <body>
     <h1>FEEDBACK SYSTEM</h1>
+    <hr>
     <form action="/" method="POST">
-        <input type="number" class="A" name="A1" min="1" max="100" required>
-        <input type="number" class="A" name="A2" min="1" max="100" required>
-        <input type="number" class="A" name="A3" min="1" max="100" required>
-        <input type="number" class="A" name="A4" min="1" max="100" required>
-        <input type="number" class="A" name="A5" min="1" max="100" required>
+        <input type="number" class="num-input" name="A1" min="1" max="5" required>
+        <input type="number" class="num-input" name="A2" min="1" max="5" required>
+        <input type="number" class="num-input" name="A3" min="1" max="5" required>
+        <input type="number" class="num-input" name="A4" min="1" max="5" required>
+        <input type="number" class="num-input" name="A5" min="1" max="5" required>
+        <br>
+        <input type="number" class="num-input" name="B1" min="1" max="5" required>
+        <input type="number" class="num-input" name="B2" min="1" max="5" required>
+        <input type="number" class="num-input" name="B3" min="1" max="5" required>
+        <input type="number" class="num-input" name="B4" min="1" max="5" required>
+        <input type="number" class="num-input" name="B5" min="1" max="5" required>
         <br><br>
-        <button type="submit">SUBMIT</button>
+        <button type="submit">[ SUBMIT ]</button>
     </form>
 </body>
-
 <style>
-    html {
-        font-family:Georgia, 'Times New Roman', Times, serif;
-    }
     h1 { 
+        font-weight: lighter;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
     }
     button {
-        margin-left: 45%;
         font-size:large;
         color: white;
         background-color: black;
         width: 10vw;
         height: 3vw;
         border: none;
+        border-radius: 0.5dvw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .num-input {
+        height:2dvw;
+        width: 5dvw;
+        margin: 0.5dvw;
+        background-color: rgb(233, 233, 233);
+        border-color: black;
+        border-radius: 0.5dvw;
     }
 </style>
 </html>
