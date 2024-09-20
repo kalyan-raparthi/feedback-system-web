@@ -16,6 +16,12 @@ app.post('/', (req, res) => {
   console.log(req.body.A4);
   console.log(req.body.A5);
 
+  console.log(req.body.B1);
+  console.log(req.body.B2);
+  console.log(req.body.B3);
+  console.log(req.body.B4);
+  console.log(req.body.B5);
+            
   res.sendFile(__dirname +  '/success.html');
 });
 
